@@ -1,0 +1,32 @@
+{
+  "name": "adenticator",
+  "version": "1.0.0",
+  "description": "Express middleware to authenticate and authorize the user through Active Directory and AD group",
+  "main": "./src/index.js",
+  "scripts": {
+    "prestart": "npx prettier --write '**/*.js'"
+  },
+  "keywords": [
+    "AD",
+    "Active Directory",
+    "authentication",
+    "authorization",
+    "Express",
+    "Middleware"
+  ],
+  "author": {
+    "name": "Damon Yuan",
+    "email": "damon.yuan.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:damonYuan/adenticator.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ldapjs": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  }
+}
