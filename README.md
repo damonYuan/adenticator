@@ -27,5 +27,5 @@ app.use(adenticator.login);
 
 # TODO
 
-[ ] use secured LDAP client
-[ ] distinguish the AND and OR relationship in memberGroups
+- [ ] use secured LDAP client
+- [ ] distinguish the AND and OR relationship in memberGroups
